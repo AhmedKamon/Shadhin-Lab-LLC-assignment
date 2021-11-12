@@ -177,6 +177,16 @@ a:hover{
     top: 0;
     right: 0;
 }
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .cards{
+        align-items: center;
+        margin-right: 50px;
+    }
+    .card{
+        margin-top: 20px;
+    }
+  }
 /* why you are here section ends here */
 
 /* Best selling courses starts here */
